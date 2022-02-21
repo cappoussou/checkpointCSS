@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URBAN DANCE</title>
+   <!--favicon-->
+   <link rel="shortcut icon" type="image/png"  href="img/favicon.ico">
+   <a name="Home"> </a>
+   <center>
+       <img src="img/Logo Urban Dance 2019 black.png"
+    alt="logo-Urban-Dance-white" 
+    style="width:216px;height:128px;">
+</center>
+</head>
+
+<body>
+    <main>
+            <!--navigation bar-->
+          
+            <div id="navbar">
+            <a href="#Home">Home</a>
+            <a href="#Video">Video</a>
+            <a href="#Classes">Classes</a>
+            <a href="#Team">The Team</a>
+            <a href="#Contact">Contact</a>
+            </div>
+           
+            <script>
+                window.onscroll = function() {myFunction()};
+                
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+                
+                function myFunction() {
+                  if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                  } else {
+                    navbar.classList.remove("sticky");
+                  }
+                }
+                </script>
+                
+            <section>
+                <!--Home Youtube video-->
+                
+                    <h1>ABOUT URBAN DANCE </h1>
+                    <a name="Video"></a>
+                    <center>
+                <div class="video">
+                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qfJMnY427Cs?autoplay=0&controls=0" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen >
+                </iframe>
+                </div>
+            </section>
+        </center>
+            <section>
+                <h2>WHY URBAN DANCE IS SO POPULAR?</h2> 
+                <p class="testp">
+    Because we absolutely, positively love what we do. We live dance, we breathe dance and we get to share dance with the world. 
+    We help make people’s day and forget their troubles… even for a moment. We work and play alongside our friends and family all 
+    day and evening long. We allow adults and kids show off who they really are and embrace their uniqueness and self-expression. 
+    We encourage pushing individual comfort zones,but we respect everyone’s individual pace. We support all dance levels, 
+    and help everyone discover their inner-superstar.
+                </p>
+            </section>
+            <section>
+                <a name="Classes"> </a>
+             <!--classes-->
+             
+             <h3>OUR CLASSES</h3>
+             
+             <div class="row">
+                <div class="column1">
+                     <!--Break dance-->
+                    <img  src="img/breakdance.gif" alt="Breakdance">
+                    <p>BREAK DANCE</p>
+                </div>
+                <div class="column1">
+                   <!--Disco-->
+             
+                   <img  src="img/disco.gif"  alt="Disco"  >  
+                   <p style="margin-left: 126px;">DISCO</p>
+                </div>
+                <div class="column1">
+                    <!--URBAN DANCE-->
+                   
+
+                 <img  src="img/Urban Dance.gif" alt="URBAN DANCE" >
+                 <p>URBAN DANCE</p>
+                </div>
+             </div>
+            </section>
+
+            <section>
+                <a name="Team"> </a>
+                    
+                    <!--The Team-->
+                <h4>OUR TEAM</h4>
+                    <div class="row">
+                        <div class="column2">
+                    <!--JADE-->
+                    <img src="img/team1.jpg" alt="Jade"  >
+                    <p>--Jade Chynoweth--</p>
+                </div>
+                <div class="column2">
+                    <!--YANIS-->
+                    <img src="img/team2.jpeg" alt="Yanis" >
+                    <p>--Yanis Marshal--</p>
+                    </div>
+                    <div class="column2">
+                     <!--KAYCEE-->
+                     <img src="img/team3.jpeg" alt="Kaycee"  >
+                     <p>--Kaycee Rice-- </p>
+                    </div>
+                </div>
+            </section>
+            </main>
+
+            <Footer>
+       
+                <!--Contact-->
+                <a name="Contact"> </a>
+            
+                <h4>CONTACT</h4>
+                    <center>
+                <div>
+                    contact@urbandance.tn / Ain Zaghouan: 52 024 024 / Menzah 5: 51 04 04 04
+                </div>
+            </center>
+                <div class="container">
+                    <form action="action_page.php">
+                  
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="australia">Tunisia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+                  
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
+                  <center>
+                    <a href="#Home"> Let's go up Top </a>
+              
+                  </center>
+                
+            </Footer>
+            </body>
+            </html>
